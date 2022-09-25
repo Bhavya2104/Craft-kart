@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -19,11 +20,16 @@ header ul li {
     color: black;
 }
 
+.link_remover2 {
+    text-decoration: none;
+    color: #fffefb;
+}
+
 nav {
     font-size: 21px;
 }
-.bgnav
-{
+
+.bgnav {
     background-image: url(/Images/bg-2.jpg);
 }
 
@@ -38,9 +44,9 @@ nav {
 
 
 .main {
-    
-        background-image: url(./Images/shop-bg.PNG);
-        background-size: cover;
+
+    background-image: url(./Images/shop-bg.PNG);
+    background-size: cover;
     width: 100%;
     height: 92vh;
     margin-bottom: 10vh;
@@ -51,27 +57,36 @@ nav {
 }
 
 .card {
-    
-    margin-left: 4vw; 
-     margin-right: 4vw;
+
+    margin-left: 4vw;
+    margin-right: 4vw;
     border-radius: 25px;
 }
-.col-lg-4
-{
+
+.col-lg-4 {
     /* border: 1px solid black;
     border-radius: 25px; */
     /* margin-right: 25px; */
 
 }
-.d-flex .btn
-{
+
+.d-flex .btn {
     margin-left: 92.5vw;
-    display:flex ;
+    display: flex;
     float: right;
 }
-#aboutus
-{
+
+#aboutus {
     font-size: 34px;
+    margin-bottom: 5vh;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+#contactus {
+    font-size: 30px;
+    margin-bottom: 5vh;
+    font-size: 50px;
+    letter-spacing: 4px;
 }
 
 .card:hover {
@@ -80,15 +95,20 @@ nav {
     box-shadow: 10px 10px 28px 0px rgba(0, 0, 0, 0.55);
     transition: 0.4s;
 }
-.ptext
+.turn-right
 {
+margin-left: 63vw;
+}
+.ptext {
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: 18px;
+    font-size: 23px;
+    margin-bottom: 5vh;
 }
+
 .mainh1 {
     font-size: 3rem;
-    color: #eaddc1;
+    color: #fffefb;
 }
 
 .mainbtn {
@@ -96,27 +116,55 @@ nav {
     width: 25%;
     border: none;
     outline: none;
-    background-color: #AE76A6;
-    color: #eaddc1;
+    background-color: #383630;
+    color: #f0ede7;
     font-size: 20px;
     border-radius: 30px;
 }
-.setting
-{
+
+.setting {
     margin-right: 9px;
 }
-.centerupdown
-{
+
+.centerupdown {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+    height: 61vh;
+    color: #f0ede7;
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-    font-weight: 600;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 7px;
+}
+.centerupdowntext
+{
     margin-left: 10vw;
     margin-right: 10vw;
-    text-align: center;
+
 }
-.small-texto
-{
+
+.small-texto {
     font-size: 20px;
+}
+.shoptext
+{
+    margin-top: 25vh;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.shoptext2
+{
+    font-size: 50px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f0ede7;
+    letter-spacing: 4px;
 }
